@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official DomLabs Store — GuardBox, DevDock, and SnackBot" />
+  <title>DomLabs Official Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧠 DomLabs Official</h1>
+    <p>Innovating the Future — One Project at a Time</p>
+  </header>
+
+  <section id="store">
+    <div class="product">
+      <img src="https://cdn-icons-png.flaticon.com/512/2921/2921226.png" alt="GuardBox" />
+      <h2>GuardBox</h2>
+      <p>A WiFi security and management box that gives total control over your network.</p>
+      <span>$199.99</span>
+      <button onclick="addToCart('GuardBox')">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://cdn-icons-png.flaticon.com/512/1829/1829443.png" alt="DevDock" />
+      <h2>DevDock</h2>
+      <p>A focus tool that locks all apps except VS Code — perfect for real developers.</p>
+      <span>$89.99</span>
+      <button onclick="addToCart('DevDock')">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046751.png" alt="SnackBot" />
+      <h2>SnackBot</h2>
+      <p>AI-powered nutrition tracker that keeps your health data private and simple.</p>
+      <span>$14.99</span>
+      <button onclick="addToCart('SnackBot')">Buy Now</button>
+    </div>
+  </section>
+
+  <section id="cart">
+    <h2>🛒 Cart</h2>
+    <ul id="cart-items"></ul>
+  </section>
+
+  <footer>
+    <p>© 2025 DomLabs | Created by Dominick David Derenthall</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
